@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ftp://ftp.d6089744-91247.srv-hostalia.com", "ftp://ftp.d6089744-91247.srv-hostalia.com", "{312D1DAE-EFE6-419D-9B25-D6429AB75D5A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/ftp.d6089744-91247.srv-hostalia.com"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\AppData\Local\Temp\VWDWebCache\ftp_ftp.d6089744-91247.srv-hostalia.com_f226522.jorgegaraje\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ftp.d6089744-91247.srv-hostalia.com\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ftp.d6089744-91247.srv-hostalia.com"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\AppData\Local\Temp\VWDWebCache\ftp_ftp.d6089744-91247.srv-hostalia.com_f226522.jorgegaraje\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ftp.d6089744-91247.srv-hostalia.com\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "JorgeGaraje", "E:\JorgeGaraje\", "{E9DC3786-B073-44D0-889F-01B697A3C775}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51164"
+		Debug.AspNetCompiler.PhysicalPath = "E:\JorgeGaraje\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51164\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51164"
+		Release.AspNetCompiler.PhysicalPath = "E:\JorgeGaraje\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51164\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51164"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{312D1DAE-EFE6-419D-9B25-D6429AB75D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{312D1DAE-EFE6-419D-9B25-D6429AB75D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9DC3786-B073-44D0-889F-01B697A3C775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9DC3786-B073-44D0-889F-01B697A3C775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F0FB58F-B264-471B-840F-C4EBF5A0DB30}
+	EndGlobalSection
+EndGlobal
