@@ -1,0 +1,93 @@
+
+/* moviles.css  Configuarion de moviles */
+
+/*para movil apple 300 width a 350 */
+
+/* moviles.css  Color enlaces cuando pasa el cursor */
+
+a:hover{
+    cursor:pointer;
+    opacity: 0.6;
+    color: #777;
+    
+}
+
+
+
+@media (min-width: 300px) and (max-width: 350px){
+.Fuente_inicio_cursiva_2 {
+    font-size: 110%;
+  
+}
+#Proyectos{
+     padding-left: 12%;
+
+}
+}
+
+/* para pc   */
+
+@media (min-width: 700px){
+    #ventana-p {
+    width: 100.2%;
+    overflow: hidden;
+}
+    
+    #Proyectos{
+     padding-left: 10%;
+
+}
+.Fuente_Ini_Cursiva {
+      margin-top: 0px;
+
+}
+
+}
+
+/* moviles.css  Configuarion de moviles */
+
+@media (min-width: 370px) and (max-width: 500px){
+ #ventana-p {
+   
+    overflow: hidden;
+}   
+.Fuente_inicio_normal_creditos {
+    font-size:120%;
+    font-family: 'LetraNormal';
+    font-weight: 600;
+
+}
+.Fuente_inicio_normal {
+    font-size: 120%;
+}
+}
+@media (min-width: 300px) and (max-width: 370px){
+    #ventana-p {
+   
+    overflow: hidden;
+}
+.Fuente_inicio_normal_creditos {
+    font-size:110%;
+    font-family: 'LetraNormal';
+    font-weight: 600;
+
+}
+.Fuente_inicio_normal {
+    font-size: 110%;
+}
+}
+
+@media (min-width: 800px){
+    #ventana-p {
+    width: 100.2%;
+    overflow: hidden;
+}
+.Fuente_inicio_normal_creditos {
+    margin: auto;
+    font-family: 'LetraNormal';
+    font-weight: 600;
+    font-size: 95%;
+    text-align: left;
+}
+}
+

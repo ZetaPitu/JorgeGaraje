@@ -1,0 +1,46 @@
+body {
+}
+#Proyectos{
+     padding-left: 10%;
+     padding-right: 0%
+}
+/*Enlace principal Ejemplo: los cuales producto.........................................ver*/
+.div-img-1 {
+    font-size: 100%;
+    padding: 0px;
+    color: #000;
+    width: 100%;
+    height: auto;
+}
+/*Enlaces a productos y fotos reales de tus cosas Ejemplo: Meninas medio revolucionadas...............2019*/
+.enlaces {
+    font-size: 100%;
+    padding-left: 6.5%;
+    color: #f0f;
+}
+
+/*Texto de Souvenir Engineering o Ingeniería del Souvenir.*/
+.ing {
+    font-size: 100%;
+    color: #007aff;
+}
+
+/*Foto de entrada*/
+@media (min-width: 800px) {
+    .img-inicio {
+        width: 50%;
+        height: initial;
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 350px){
+.Fuente_inicio_cursiva_2 {
+    font-size: 110%;
+    margin-left: 18px;
+}
+#Proyectos{
+     padding-left: 12%;
+     padding-right: 0%
+}
+}

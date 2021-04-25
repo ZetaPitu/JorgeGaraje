@@ -1,0 +1,664 @@
+/*
+*   Definimos las clases personalizadas para la web
+*/
+
+.enlaces{
+    color:#f0f;
+}
+.principal{
+    margin-left:33%;
+
+} 
+
+.contenedor_pagina_inicio {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.img_princi {
+    height: auto;
+    width: 60%;
+}
+body {
+    position: initial !important;
+    top: 0 !important;
+    min-height: initial !important;
+}
+.modal-body {
+    
+    text-align:center;
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    
+    border-bottom: 1px solid #aaa;
+}
+
+#descripcion-modal {
+    font-family: "LetraCursiva";
+    font-size: 105%;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 0;
+    text-align: justify;
+}
+@media (min-width: 576px) {
+.modal-dialog {
+        max-width: 700px;
+        margin: 1.75rem auto;
+    }
+}
+
+.enlacesexternos {
+    color: inherit;
+    width: 100%;
+    overflow: hidden;
+}
+
+    .hijo {
+        width: 90%;
+    }
+
+    .col-3m {
+        width: 19%;
+    }
+
+    .col-6m {
+        width: 58%;
+    }
+
+    .enlaces-a {
+        z-index: 2000;
+        cursor: pointer;
+        float: right;
+        margin-right: 2px;
+        position: absolute;
+    }
+
+        .enlaces-a::before {
+            text-decoration: none;
+            color: black;
+            content: '';
+        }
+
+        .enlaces-a:hover {
+            color: #ff0000;
+            text-decoration: none;
+        }
+
+    .enlace-en {
+        display: block;
+    }
+
+    .enlace-es {
+        display: block;
+    }
+
+    .enlace-img {
+        height: 150px;
+        object-fit: scale-down;
+        width: 100%;
+    }
+
+    .enlace-img-p {
+        height: 50px;
+        object-fit: scale-down;
+        width: 32%;
+    }
+
+    .final {
+        z-index: 100;
+        float: right;
+        position: absolute;
+    }
+
+    .div-img {
+        padding: 2px;
+        width: 90%;
+        height: auto;
+    }
+
+    #ingsou {
+        width: 83%;
+        margin-left: 15%;
+    }
+
+    .div-img-1 {
+        padding: 2px;
+        color: #f0f;
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    .peso-porta {
+        z-index: 2000;
+        cursor: pointer;
+        float: right;
+        margin-right: 2px;
+        margin-bottom: -70px;
+    }
+
+    .titulo-enlace {
+        width: 20px;
+    }
+
+        .titulo-enlace::after {
+            position: absolute;
+            content: '';
+        }
+
+    .espacio-enlace {
+        display: block;
+        position: absolute;
+        opacity: 0.7;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+
+
+    section {
+        display: none;
+    }
+
+    .oscuro {
+        color: #fff;
+        background-color: #000;
+    }
+
+    .claro {
+        color: #000;
+        background-color: #fff;
+    }
+
+
+    #secondary {
+        position: initial;
+        top: 80px;
+    }
+
+    .img_reciclage {
+        width: 21%;
+    }
+
+    .img_barcode {
+        width: 21%;
+    }
+
+    .img_icon {
+        padding-right: 5px;
+        width: 25px;
+    }
+
+
+    .icon-p {
+        width: 19px;
+        height: 8px;
+        cursor: pointer;
+    }
+
+    .icon-e {
+        width: 17px;
+        cursor: pointer;
+        height: 8px;
+    }
+
+    #iconos {
+        /*margin-left: 33%;*/
+        padding: 10px;
+        display: contents;
+    }
+
+    .img-modal {
+        width: 100%
+        /*  height: 50vh;*/
+    }
+
+    .modal-header {
+        font-size: 125%;
+        border-bottom: 1px solid #aaa;
+        text-align: center;
+        display: block
+    }
+
+    .enlace-img-modal {
+        width: 100%;
+    }
+
+    #nombrepro {
+        font-family: "LetraCursiva";
+        color: currentColor;
+    }
+
+    .modal-backdrop.show {
+        height: 100%;
+        width: 100%;
+        opacity: .7;
+    }
+
+    @media (min-width: 800px) {
+        body {
+        }
+
+        .img-inicio {
+            width: 50%;
+            height: 50vh;
+            margin-top: 40px;
+        }
+
+        #descripcion-modal {
+            font-family: "LetraCursiva";
+            font-size: 100%;
+            text-align: justify;
+        }
+
+        .img-modal {
+            height: inherit;
+            width: 100%;
+        }
+
+        .enlace-pc {
+            display: block;
+        }
+
+        .enlace-mo {
+            text-align: center;
+            padding: 3px;
+            display: none;
+        }
+
+        #selectidioma {
+            margin-top: -21px;
+            margin-left: 259px;
+        }
+
+        #principal-1 {
+            height: auto;
+        }
+
+        .principal {
+            margin-left: 33%;
+            width: 600px;
+            padding: 15px;
+        }
+
+        #titulo {
+            margin-top: 0;
+            padding: 10px;
+            padding-bottom: 0;
+            width: 180px;
+        }
+
+        #titulo-1 {
+            margin-top: 0;
+            padding: 10px;
+            width: 180px;
+        }
+
+        #titulo-2 {
+            font-size: 105%;
+            font-weight: 400;
+            text-align: center;
+            margin-top: 0px;
+            width: 100%;
+        }
+        .titulo-es{
+            
+            font-size: 105%;
+            font-weight: 400;
+            margin-top: 6.5px;
+            width: 100%; 
+            
+        }
+
+        #titulo-3 {
+            text-align: justify;
+            margin-top: 0px;
+            width: 100%;
+        }
+
+        #titulo-4 {
+            font-size: 105%;
+            font-weight: 400;
+            text-align: center;
+            margin-top: 0px;
+            width: 100%;
+        }
+        .titulo-en{
+            font-size: 105%;
+            font-weight: 400;
+            margin-top: 0px;
+            width: 100%; 
+            
+        }
+
+        #titulo-5 {
+            text-align: justify;
+            margin-top: 0px;
+            width: 100%;
+        }
+
+        #titulo-6 {
+            text-align: justify;
+            margin-top: 0px;
+            width: 100%;
+        }
+
+        #titulo-7 {
+            text-align: justify;
+            margin-top: 0px;
+            width: 100%;
+        }
+
+        #secondary {
+            position: initial;
+        }
+
+        .contenedor_pagina_inicio {
+            margin-left: -275px;
+            margin-top: 10%;
+            text-align: center;
+        }
+
+
+        #codigobarras {
+            margin-left: -55px;
+            margin-top: 7px;
+            width: 39.4%;
+        }
+
+        .img_reciclage {
+            margin-left: -2px;
+            margin-top: 7px;
+            width: 45%;
+        }
+
+        /*Modal*/
+
+        .modal-content {
+            margin-left: 60px;
+            width: 90%;
+        }
+
+        .Fuente_inicio_normal_creditos {
+            margin: auto;
+            font-family: LetraCursiva;
+            font-size: 95%;
+            text-align: left;
+        }
+
+        .Fuente_inicio_cursiva_2 {
+            margin-bottom: 15px;
+            text-align: justify;
+            font-family: "LetraCursiva";
+            font-size: 105%;
+        }
+
+        .Fuente_inicio_normal_peq {
+            margin-top: 8px;
+            font-family: "LetraNormal";
+            font-size: 91%;
+            text-align: left;
+        }
+    }
+
+    .img-cont-modal {
+        height: inherit;
+        width: 100%;
+        margin: 0;
+    }
+
+    /*
+@media (min-width: 700px) {
+    .principal {
+        margin-left: 33%;
+        width: 600px;
+        padding: 15px;
+    }  
+}             
+*/
+    @media (max-width: 800px) {
+        .peso-porta {
+            z-index: 2000;
+            cursor: pointer;
+            float: right;
+            margin-right: 2px;
+            margin-bottom: -40px;
+        }
+
+        #principal-1 {
+            margin-top: 25px;
+            font-size: 11px;
+        }
+
+        .principal {
+            width: 80%;
+            margin-left: 10%;
+            padding: 10%;
+        }
+
+
+
+
+/*Imagenes  pantalla inicial   Modo movil*/
+        .img-inicio {
+            width: 100%;
+          /*  height: 50vh;*/
+            margin-top: 40px;
+        }
+
+        .img-modal {
+            width: 100%;
+            height: inherit;
+        }
+
+        .container {
+            width: 100%;
+            padding-right: 1%;
+            padding-left: 1%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .col-6m {
+            margin-left: 66%;
+            position: absolute;
+            width: 58%;
+        }
+
+        #footer {
+            margin-top: 7px;
+        }
+
+        .col-3m {
+            width: 39%;
+        }
+
+        .img_reciclage {
+            width: 33%;
+        }
+
+        .img_barcode {
+            width: 50%;
+        }
+
+        .Fuente_inicio_normal_creditos {
+            font-size: 90%;
+            margin-top: -7PX;
+            margin-left: 6%;
+            padding: 0px;
+        }
+
+        .Fuente_inicio_normal_peq {
+            margin: auto;
+            margin-top: 10px;
+            font-family: "LetraCursiva";
+            font-size: 80%;
+            text-align: center;
+            /* Creditos*/
+        }
+
+        #secondary {
+            zoom: 0.8;
+            margin-left: 114px;
+            margin-top: -15px;
+        }
+
+
+        #tienda-a {
+            width: 70px;
+        }
+
+        #recicla-a {
+            margin-left: 0%;
+        }
+
+        .modal {
+            z-index: 10050;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .modal-content {
+
+            margin-top: 25PX;
+            min-height: 90vh;
+        }
+    }
+
+    .modal {
+        z-index: 10050;
+    }
+
+    .mi-boton {
+        color: #f0f;
+        background-color: transparent;
+        border: none;
+    }
+
+    .modal-footer > a {
+        color: #00f;
+    }
+
+    .modal-footer > * {
+        z-index: 1000000;
+        margin-top: -20px;
+      /*  padding-bottom: 0px;*/
+    }
+    /*Fuentes para web*/
+    @font-face {
+        font-family: "LetraNormal";
+        src: url("../FuentesLetras/HELVETICANEUELTSTD-LTCN.OTF");
+    }
+
+    @font-face {
+        font-family: "LetraCursiva";
+        src: url("../FuentesLetras/HELVETICANEUELTSTD-LTCNO.OTF");
+    }
+
+    .Fuente_Ini_Normal {
+        text-align: justify;
+        font-size: 105%;
+    }
+
+    .Fuente_Ini_Cursiva {
+        font-family: "LetraCursiva";
+        font-size: 105%;
+        margin-bottom: 20px;
+    }
+
+    .Fuente_Ini_Cursiva_W {
+        font-family: "LetraCursiva";
+        font-size: 105%;
+        color: white;
+    }
+
+    .Fuente_inicio_normal {
+        text-align: justify;
+        text-justify: inter-word;
+        font-family: "LetraNormal";
+        font-size: 105%;
+    }
+
+    .Fuente_inicio_normal_W {
+        text-align: justify;
+        text-justify: inter-word;
+        font-family: "LetraNormal";
+        font-size: 105%;
+    }
+
+    .Fuente_inicio_cursiva {
+        text-align: justify;
+        -moz-text-align-last: justify;
+        text-align-last: justify;
+        font-family: "LetraCursiva";
+        font-size: 105%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .Fuente_inicio_cursiva_2 {
+        text-align: justify;
+        font-family: "LetraCursiva";
+        font-size: 105%;
+    }
+
+    .Fuente_inicio_cursiva_W {
+        text-align: justify;
+        text-justify: inter-word;
+        font-family: "LetraCursiva";
+        font-size: 105%;
+        color: white;
+    }
+
+    .Fuente_inicio_normal_creditos_W {
+        margin: auto;
+        font-family: "LetraNormal";
+        font-size: 105%;
+        text-align: center;
+        color: white;
+    }
+
+    .Fuente_inicio_cursiva_creditos {
+        font-family: "LetraCursiva";
+        font-size: 105%;
+        text-align: left;
+    }
+
+    .Fuente_inicio_cursiva_creditos_W {
+        font-family: "LetraCursiva";
+        font-size: 105%;
+        text-align: left;
+        color: white;
+    }
+
+    .Fuente_inicio_cursiva_creditos_ENORME {
+        font-family: "LetraCursiva";
+        font-size: 105%;
+        text-align: left;
+        /*font-weight: bold;*/
+    }
+
+    .Fuente_inicio_cursiva_creditos_ENORME_W {
+        font-family: "LetraCursiva";
+        font-size: 200%;
+        text-align: left;
+        color: white;
+        /*font-weight: bold;*/
+    }
+
+    .Fuente_inicio_normal_peq_W {
+        margin: auto;
+        font-family: "LetraNormal";
+        font-size: 105%;
+        text-align: center;
+        color: white;
+    }
+

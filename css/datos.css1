@@ -1,0 +1,86 @@
+﻿body {
+}
+
+#ventana-p {
+    width:100.2%;
+    overflow: hidden;
+}
+
+.esp {
+    margin-top: -140%;
+}
+
+.ing {
+    margin-top: -76%;
+}
+
+.enlacesexternos {
+    width: 100%;
+}
+
+.enlaces-a .final {
+    text-decoration: underline;
+    z-index: 999;
+    position: relative;
+}
+
+.enlaces-a {
+    z-index: 2000;
+    cursor: pointer;
+    float: right;
+    margin-right: 2px;
+    position: initial;
+}
+
+.final {
+    background-color: #ffffff;
+    z-index: 3000;
+    position: initial;
+    float: right;
+}
+.enlaces .final {
+    background-color: #808080;
+    z-index: 3000;
+    position:initial;
+    float: right;
+}
+
+.titulo-enlace::after {
+    position: initial;
+    content: '...........................................................................';
+}
+.enlaces {
+    text-align: left;
+    background-color: #ffd800;
+    overflow: hidden;
+    width: 100%;
+    height: 21px;
+    font-size: 100%;
+    padding-left: 6.5%;
+    color: #f0f;
+}
+.div-img-c {
+    background-color:#00ff90;
+    width:90%;
+    height: 20px;
+    overflow: hidden;
+    /* overflow-x: scroll;*/
+}
+
+    .div-img-c:after {
+      /*  position: absolute;*/
+        content: ' ..............................................................................................';
+    }
+
+.div-img {
+    padding: 0px;
+    width: inherit;
+    height: 21px;
+    overflow: hidden;
+    /* background-image: url('../Fotos/Sin título.png');*/
+}
+
+.well-1 {
+    display: none;
+    padding-left: 10%;
+}

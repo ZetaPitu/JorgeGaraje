@@ -1,0 +1,116 @@
+/* PEGA AQUI TUS CLASES Y MODOFICALA AQUI */
+
+body {
+    background-color: #white!important;
+}
+
+
+/*  a partir de aqui pon lo quieras si te equivocas lo borrar y sigue todo como estaba*/
+
+
+/* ESto es una copia del archivo cambios.css*/
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: currentColor;
+}
+/*Enlace principal Ejemplo: los cuales producto.........................................ver*/
+.div-img-1 {
+    font-size: 100%;
+    padding: 0px;
+    color: #000;
+    width: 100%;
+    height: auto;
+}
+/*Enlaces a productos y fotos reales de tus cosas Ejemplo: Meninas medio revolucionadas...............2019*/
+.enlaces {
+    font-size: 100%;
+    padding-left: 6.5%;
+    color: currentColor;
+}
+
+/*Texto de Souvenir Engineering o Ingeniería del Souvenir.*/
+.ing {
+    font-size: 100%;
+    color: #007aff;
+}
+
+/*Fotos de entrada*/
+.img-inicio {
+    width:100%;
+    height:auto;
+    margin-top: 10px;
+}
+@media (min-width: 800px) {  /*para pc*/
+        .img-inicio {
+        width: 50%;
+
+    }
+}
+.img-inicio:hover{
+    
+    cursor:pointer;
+    opacity: 0.8;
+    color: #0ff;
+  /*  border-radius: 10%;   Esto era lo que redondeaba la foto*/
+}
+
+/*esta clase es para jquery que cambia color de fondo por defecto*/
+.blanco {
+    color: #fff;
+    background-color: #000;
+}
+
+/*Colocación y tamaño del logo de reciclaje en version móvil*/
+
+@media (max-width: 800px){
+
+.img_reciclage {
+    width: 40%;
+    margin-left: -15%;
+    margin-top: -2px;
+}
+/*Colocación y tamaño del código de barras en versión móvil*/
+}
+@media (max-width: 800px){
+.img_barcode {
+    width: 65%;
+    margin-left: -15%;
+    margin-top: -6px;
+}
+/*Colocación y tamaño del logo de reciclaje en version PC*/
+}
+
+@media (min-width: 800px){
+.img_reciclage {
+    margin-left: -10px;
+    margin-top: 5px;
+    width: 45%;
+}
+}
+
+/* modal */
+
+.modal-footer {
+    flex-wrap: nowrap;
+    margin-left: 12.4%;
+    width: 76%;
+    margin-top: 8px;
+    border-top:0px;
+    justify-content: space-around;
+}
+.modal-footer > a {
+    font-family: 'LetraCursiva';
+    font-size: 100%;
+   
+    color: currentColor;
+}
+.mi-boton{
+ margin-left: 73%; 
+ color: currentColor !important;
+}
+
+
+
+

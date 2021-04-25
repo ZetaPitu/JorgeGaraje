@@ -1,0 +1,106 @@
+body {
+}
+#ventana-p {
+    width:100%;
+    overflow: hidden;
+}
+@media (min-width: 600px) {
+#ventana-p {
+
+    width:100.2%;
+    overflow:hidden;
+}
+}
+
+.esp {
+    margin-right:-3px;
+    margin-top: -137%;
+    color: currentColor;
+}
+.recicla-a:hover{
+    opacity:0.6;
+}
+.esp:link {    color: currentColor;  }          /* Enlaces no visitados */
+.esp:visited { color: #777; }     /* Enlaces visitados */
+.esp:hover { color:#777; }  /* El usuario esta sobre el enlace */
+.esp:active { color: #777; } 
+.ing:link {     color: currentColor;}          /* Enlaces no visitados */
+.ing:visited { color: #777; }     /* Enlaces visitados */
+.ing:hover { color:#777; }  /* El usuario esta sobre el enlace */
+.ing:active { color: #777; } 
+.ing {
+    margin-right: -1.2px;
+    color: currentColor;
+    margin-top: -76%;
+}
+.enlacesexternos {
+    width: 100%;
+
+}
+.enlaces-a .final { 
+    z-index: 999;
+    position: relative;
+}
+.enlaces-a {
+    z-index: 2000;
+    cursor: pointer;
+    float: right;
+    margin-right: 2px;
+    position:inherit;
+}
+.final {     
+  /*  background-color: #ffffff;*/
+    font-size: 100%;
+    z-index: 3000;
+    float: right;
+    position: relative;
+}
+.div-img-c .final{
+    color:red;
+}
+.enlaces .final {
+
+    white-space: break-spaces;
+    color: currentColor;
+    z-index: 3000;
+    position: relative;
+    float: right;
+    margin-right: -3px;
+    padding-right: 1.6px;
+}
+.final::after {
+ /* background-color: #ffffff;*/
+    content: " ";
+ 
+}
+.final:before{
+    content:' ';;
+}
+    .titulo-enlace::after {
+        position: initial;
+        content: '...........................................................................';
+    }
+.div-img-c {
+    display: contents;
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    /* overflow-x: scroll;*/
+}
+.div-img-c:after {
+      /*  background-color:aqua;*/
+        position:absolute;
+        content: ' .............................................................................';
+    }
+.div-img {
+    padding: 0px;
+    width: 100%;
+    height: auto;
+  
+    /* background-image: url('../Fotos/Sin título.png');*/
+}
+
+.well-1 {
+    display: none;
+    padding-left: 10%;
+}

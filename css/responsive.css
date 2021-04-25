@@ -1,0 +1,486 @@
+﻿body {
+}
+/*  Valores para PC y Generales*/
+.espacio-en{
+
+    letter-spacing:1px;
+}
+@media (orientation:landscape) and (max-width:799px){
+    /*  Posicion horizontal del movil */
+    #principal-1 {
+        width: 60%;
+        margin-left: 26%;
+ 
+    }
+    .principal {
+        width: 80%;
+        margin-left: 0%;
+        padding: 5%;
+    }
+    #titulo-2, #titulo-4{
+        text-align:center;
+    }
+    .col-md-3, .col-md-7, .col-md-6, .col-md-5 {
+        
+        max-width: 100%;
+        flex: initial;
+        font-size: 125%;
+    }
+    
+    .Fuente_inicio_normal_creditos {
+        font-size: 120%;
+        margin-top: -7PX;
+        margin-left: 0%; 
+        padding: 0px;
+    }
+    .img-inicio {
+        width: 70%;
+        margin-top: 10px;
+        height: initial;
+    }
+
+    .contenedor_pagina_inicio {
+        margin-left: 0px;
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    #footer {
+        margin-left: 0%;
+    }
+    .modal-dialog {
+    max-width: 500px;
+    margin: 1.75rem auto;
+    }
+
+}
+
+/********************************************************************************************************/
+
+@media (orientation:portrait) {
+    /*  Posicion verticla del movil */
+    /* aqui pongo como se ve en moviles de 500 x 700*/
+    @media (min-width:700px) and (max-width: 800px) {
+
+        .col-md-3, .col-md-7, .col-md-6, .col-md-5 {
+            max-width: 100%;
+            flex: initial;
+            font-size: 80%;
+        }
+        .principal {
+            width: 80%;
+            margin-left: 0%;
+            padding: 5%;
+           
+        }
+         #titulo-2 , #titulo-4{
+             text-align:center;
+         }     
+        .Fuente_inicio_normal {
+            font-size: 225%;
+        }
+
+
+        .Fuente_inicio_cursiva {
+            font-size: 245%;
+        }
+
+        .Fuente_inicio_normal_creditos {
+            font-size: 150%;
+            margin-top: -7PX;
+            margin-left: 6%;
+            padding: 0px;
+        }
+
+        .Fuente_inicio_cursiva_2 {
+            text-align: center;
+            font-size: 234%;
+        }
+
+        .Fuente_inicio_normal_peq {
+            margin: auto;
+            margin-top: 10px;
+            font-size: 189%;
+            text-align: center;
+            /* Creditos*/
+        }
+
+        #footer {
+            margin-top: 20px;
+        }
+    }
+
+    /********************************************************************************************************/
+
+    /* aqui pongo como se ve en moviles de 500 x 700*/
+    @media (min-width:500px) and (max-width: 700px) {
+
+
+        .principal {
+            width: 80%;
+            margin-left: 10%;
+            padding: 5%;
+        }
+        #titulo-2, #titulo-4 {
+            text-align: center;
+        }
+        .Fuente_inicio_normal {
+            font-size: 175%;
+        }
+
+
+        .Fuente_inicio_cursiva {
+            font-size: 175%;
+        }
+
+        .Fuente_inicio_normal_creditos {
+            font-size: 90%;
+            margin-top: -7PX;
+            margin-left: 6%;
+            padding: 0px;
+        }
+
+        .Fuente_inicio_cursiva_2 {
+            font-size: 174%;
+        }
+
+        .Fuente_inicio_normal_peq {
+            margin: auto;
+            margin-top: 10px;
+            font-size: 149%;
+            text-align: center;
+            /* Creditos*/
+        }
+
+        #footer {
+            margin-top: 20px;
+        }
+    }
+
+    /********************************************************************************************************/
+
+    /* aqui pongo como se ve en moviles de 450 x 500*/
+    @media (min-width:450px) and (max-width: 500px) {
+        .principal {
+            width: 80%;
+            margin-left: 10%;
+            padding: 5%;
+        }
+
+        .Fuente_inicio_normal {
+            font-size: 135%;
+        }
+        #titulo-2, #titulo-4 {
+            text-align: center;
+        }
+
+        .Fuente_inicio_cursiva {
+            font-size: 125%;
+        }
+
+        .Fuente_inicio_normal_creditos {
+            font-size: 90%;
+            margin-top: -7PX;
+            margin-left: 6%;
+            padding: 0px;
+        }
+        .Fuente_inicio_cursiva_2 {
+            font-size: 134%;
+        }
+        .Fuente_inicio_normal_peq {
+            margin: auto;
+            margin-top: 10px;
+            font-size: 80%;
+            text-align: center;
+            /* Creditos*/
+        }
+        #footer {
+            margin-top: 20px;
+        }
+    }
+
+    /********************************************************************************************************/
+
+    /* aqui pongo como se ve en moviles de 400 x 450*/
+    @media (min-width:400px) and (max-width: 450px) {
+
+        .principal {
+            width: 80%;
+            margin-left: 10%;
+            padding: 5%;
+        }
+        #titulo-2, #titulo-4 {
+            text-align: center;
+        }
+        .Fuente_inicio_normal {
+            font-size: 135%;
+        }      
+
+  
+        .Fuente_inicio_cursiva {
+            font-size: 125%;
+        }
+
+        .Fuente_inicio_normal_creditos {
+            font-size: 90%;
+            margin-top: -7PX;
+            margin-left: 6%;
+            padding: 0px;
+        }
+
+        .Fuente_inicio_cursiva_2 {
+            font-size: 134%;
+        }
+
+        .Fuente_inicio_normal_peq {
+            margin: auto;
+            margin-top: 10px;
+            font-size: 105%;
+            text-align: center;
+            /* Creditos*/
+        }
+
+        #footer {
+            margin-top: 20px;
+        }
+    }
+
+    /********************************************************************************************************/
+
+    /* aqui pongo como se ve en moviles de 370 x 400*/
+    @media (min-width:370px) and (max-width: 400px) {
+
+
+        .principal {
+            /* background-color: #4800ff;*/
+            width: 80%;
+            margin-left: 10%;
+            padding: 5%;
+        }
+        #titulo-2, #titulo-4 {
+            text-align: center;
+        }
+
+        .Fuente_inicio_normal {
+            font-size: 119%;
+        }  
+
+        .Fuente_inicio_cursiva {
+            font-size: 115%;
+        }
+        .Fuente_inicio_normal_creditos {
+            font-size: 90%;
+            margin-top: -7PX;
+            margin-left: 6%;
+            padding: 0px;
+        }
+
+        .Fuente_inicio_cursiva_2 {
+            font-size: 122%;
+        }
+
+        .Fuente_inicio_normal_peq {
+            margin: auto;
+            margin-top: 10px;
+            font-size: 90%;
+            text-align: center;
+            /* Creditos*/
+        }
+
+        #footer {
+            margin-top: 20px;
+        }
+    }
+
+    /********************************************************************************************************/
+
+    /* aqui pongo como se ve en moviles de 350 x 370*/
+    @media (min-width:350px) and (max-width: 370px) {
+
+
+        .principal {
+          /* background-color: #00ff21;*/ 
+            width: 80%;
+            margin-left: 10%;
+            padding: 5%;
+        }
+        #titulo-2, #titulo-4 {
+            text-align: center;
+        }
+        .Fuente_inicio_normal {
+            font-size: 116%;
+        }  
+
+
+        .Fuente_inicio_cursiva {
+            font-size: 110%;
+        }
+        .Fuente_inicio_normal_creditos {
+            font-size: 90%;
+            margin-top: -7PX;
+            margin-left: 6%;
+            padding: 0px;
+        }
+
+        .Fuente_inicio_cursiva_2 {
+            font-size: 117%;
+        }
+
+        .Fuente_inicio_normal_peq {
+            margin: auto;
+            margin-top: 10px;
+            font-size: 90%;
+            text-align: center;
+            /* Creditos*/
+        }
+
+        #footer {
+            margin-top: 20px;
+        }
+    }
+
+    /********************************************************************************************************/
+
+    /* aqui pongo como se ve en moviles de 320 x 350*/
+    @media (min-width:320px) and (max-width: 350px) {
+
+        .principal {
+            /*  background-color: #808080;
+             background-color: #0000ff;*/
+            width: 80%;
+            margin-left: 10%;
+            padding: 5%;
+        }
+        #titulo-2, #titulo-4 {
+            text-align: center;
+        }
+        .Fuente_inicio_normal {
+            font-size: 102%;
+        }  
+
+
+        .Fuente_inicio_cursiva_2 {
+            font-size: 106%;
+        }
+
+        .Fuente_inicio_normal_creditos {
+            font-size: 90%;
+            margin-top: -7PX;
+            margin-left: 6%;
+            padding: 0px;
+        }
+
+        .Fuente_inicio_normal_peq {
+            margin: auto;
+            margin-top: 10px;
+            font-size: 87%;
+            text-align: center;
+            /* Creditos*/
+        }
+
+        #footer {
+            margin-top: 20px;
+        }
+    }
+
+    /********************************************************************************************************/
+
+    /* aqui pongo como se ve en moviles de 300 x 320*/
+    @media (min-width:300px) and (max-width: 320px) {
+
+        .principal {
+            /*    background-color: #ffd800;
+            background-color: #0000ff;*/
+            width: 90%;
+            margin-left: 5%;
+            padding: 5%;
+        }
+        #titulo-2, #titulo-4 {
+            text-align: center;
+        }
+        .Fuente_inicio_normal {
+            font-size: 100%;
+        }  
+
+
+        .Fuente_inicio_cursiva_2 {
+            font-size: 115%;
+        }
+
+        .Fuente_inicio_normal_creditos {
+            font-size: 90%;
+            margin-top: -7PX;
+            margin-left: 6%;
+            padding: 0px;
+        }
+
+        .Fuente_inicio_normal_peq {
+            margin: auto;
+            margin-top: 10px;
+            font-size: 87%;
+            text-align: center;
+            /* Creditos*/
+        }
+
+        #footer {
+            margin-top: 20px;
+        }
+    }
+
+    /********************************************************************************************************/
+
+    /* aqui pongo como se ve en moviles de 250 x 300*/
+    @media (min-width:250px) and (max-width: 300px) {
+
+        .principal {
+            width: 80%;
+            margin-left: 10%;
+            padding: 5%;
+        }
+        #titulo-2, #titulo-4 {
+            text-align: center;
+        }
+        .Fuente_inicio_normal {
+            font-size: 90%;
+        }  
+
+
+        .Fuente_inicio_cursiva_2 {
+            font-size: 90%;
+        }
+
+        .Fuente_inicio_normal_creditos {
+            font-size: 90%;
+            margin-top: -7PX;
+            margin-left: 6%;
+            padding: 0px;
+        }
+
+        .Fuente_inicio_normal_peq {
+            margin: auto;
+            margin-top: 10px;
+            font-size: 75%;
+            text-align: center;
+            /* Creditos*/
+        }
+
+        #codigobarras {
+            margin-left: 10%;
+            margin-top: 7px;
+            width: 34%;
+        }
+
+        #recicla-a {
+            margin-left: 15%;
+        }
+
+        #footer {
+            margin-top: 20px;
+        }
+    }
+
+    /********************************************************************************************************/
+
+  
+
+
