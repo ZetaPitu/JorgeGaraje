@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css"
+    "\\css",
+    "\\Fotos",
+    "\\JS",
+    "\\php"
   ],
-  "SelectedNode": "\\FuentesLetras",
+  "SelectedNode": "\\php\\tamano.php",
   "PreviewInSolutionExplorer": false
 }
