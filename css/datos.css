@@ -74,7 +74,7 @@ body {
  
 }
 .final:before{
-    content:' ';;
+    content:' ';
 }
     .titulo-enlace::after {
         position: initial;
@@ -103,4 +103,23 @@ body {
 .well-1 {
     display: none;
     padding-left: 10%;
+}
+#botones {
+    text-align: center;
+    z-index: 22;
+    padding: 0px;
+    margin-top: -100px;
+    width: 100%;
+    height: 105px;
+    overflow: hidden;
+}
+.rayas {
+     
+    cursor:pointer;
+    font-size: 100px;
+    color: #ddd;
+}
+#fotoinicio{
+
+    min-height:320px;
 }

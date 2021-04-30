@@ -11,7 +11,7 @@ function Leer_Tabla() {
             datos_leidos = this.responseText.split('\r\n',100);
             for (x = 0; x < datos_leidos.length; x++) {
                 datos_leidos[x] = datos_leidos[x].split('\t', 20);
-
+                
             }
 
             //Contenido = datos_leidos;
@@ -50,7 +50,7 @@ $(document).ready(function () {
 });
 
 function Poner_Enlaces() {
-    var medio = mobiliar = prensa = expoxin = descarga="";
+    var medio = mobiliar = prensa = expoxin = descarga= fotos=botones1="";
 
     for (x = 2; x < datos_leidos.length; x++) {
         if (datos_leidos[x - 1][0]==='P-1')
@@ -63,6 +63,12 @@ function Poner_Enlaces() {
             expoxin += Rellenar_Producto(x - 1, datos_leidos[x - 1]);
         if (datos_leidos[x - 1][0] === 'D-1')
             descarga += Rellenar_Producto(x - 1, datos_leidos[x - 1]);
+        if (datos_leidos[x - 1][0] === 'F-1') {
+            var result = Rellenar_Inicio(x - 1, datos_leidos[x - 1]);
+            fotos += result[0];
+            botones1 += result[1];               
+
+        }
 
     }
     Contenido = datos_leidos;
@@ -71,11 +77,24 @@ function Poner_Enlaces() {
     $("#Prensa").html(prensa);
     $("#Exposiciones").html(expoxin);
     $("#Descargas").html(descarga);
+    $("#fotoinicio").html(fotos);
+    $("#botones").html(botones1);
 
     $('a.enlace-es').off('click');
     $('a.enlace-en').off('click');
+    $('div.mySlides').off('click');
+    $('span.rayas').off('click');
 
-
+    showSlides2('1');
+    $('div.mySlides').on('click', function () {       
+        cambiafoto('2');
+    });
+    $('span.rayas').on('click', function () {
+        slideIndex = parseInt($(this).attr('id'));
+        despacito = true;
+        showSlides2(slideIndex);
+      
+    });
     $('a.enlace-es').on('click', function () {
 
         Cambiar_Modal($(this));
@@ -86,6 +105,8 @@ function Poner_Enlaces() {
         Cambiar_Modal($(this));
         $("#button-modal").click();
     });
+
+
     var idioma = getCookie('idioma');
     var color = getCookie('color');
     if (idioma === 'english') {
@@ -112,6 +133,7 @@ function Cambiar_Modal(obj) {
     var ingles = 4;
     var foto = 6;
     var descripcion;
+ 
     var orden = parseInt(obj.parent().attr('id'));
     orden;
     //alert(orden);
@@ -128,7 +150,7 @@ function Cambiar_Modal(obj) {
     $('#img-modal1').attr('src', datos_leidos[orden][foto + 1]);
     $('#img-modal2').attr('src', datos_leidos[orden][foto + 2]);
     $('#descripcion-modal').text(descripcion);
-
+    if (datos_leidos[orden][10] === 'Si') $(".modal-footer a").css('visibility', 'visible'); else $(".modal-footer a").css('visibility', 'hidden') ;
 }
 
 function Rellenar_Producto(valor,datos) {
@@ -146,3 +168,22 @@ function Rellenar_Producto(valor,datos) {
     }
 
 }
+
+function Rellenar_Inicio(valor, datos) {
+    var resultado =["",""];
+  
+    for (y = 1; y < datos.length; y++){
+
+        if (datos[y].length > 10) {
+            resultado[0] += '<div class="mySlides"><img src="' + datos[y] + '" class="img-inicio"></div>';
+            resultado[1] += '<span id="000' + y+'" class="rayas">-</span>';
+        }
+
+
+    }
+    return resultado;
+  
+
+
+}
+
