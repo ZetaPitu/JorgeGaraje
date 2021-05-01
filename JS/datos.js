@@ -77,24 +77,32 @@ function Poner_Enlaces() {
     $("#Prensa").html(prensa);
     $("#Exposiciones").html(expoxin);
     $("#Descargas").html(descarga);
-    $("#fotoinicio").html(fotos);
-    $("#botones").html(botones1);
+    $("#Inicio-C").html(fotos);
+    $("#Botones-C").html(botones1);
+
 
     $('a.enlace-es').off('click');
     $('a.enlace-en').off('click');
     $('div.mySlides').off('click');
-    $('span.rayas').off('click');
+    $('a.rayas').off('click');
+    $('img.inicial').off('click');
+    $('img.inicial').on('click', function () {
+           
+        
+        var fotopulsada = parseInt($(this).attr('id'));
+       
+        if (fotopulsada > $('img.inicial').length-1) fotopulsada = 0;
 
-    showSlides2('1');
+        $('#Botones-C > li')[fotopulsada].click();
+        
+
+       
+        
+    });
     $('div.mySlides').on('click', function () {       
         cambiafoto('2');
     });
-    $('span.rayas').on('click', function () {
-        slideIndex = parseInt($(this).attr('id'));
-        despacito = true;
-        showSlides2(slideIndex);
-      
-    });
+
     $('a.enlace-es').on('click', function () {
 
         Cambiar_Modal($(this));
@@ -149,6 +157,8 @@ function Cambiar_Modal(obj) {
     $('#img-modal').attr('src', datos_leidos[orden][foto]);
     $('#img-modal1').attr('src', datos_leidos[orden][foto + 1]);
     $('#img-modal2').attr('src', datos_leidos[orden][foto + 2]);
+   // alert(descripcion);
+
     $('#descripcion-modal').text(descripcion);
     if (datos_leidos[orden][10] === 'Si') $(".modal-footer a").css('visibility', 'visible'); else $(".modal-footer a").css('visibility', 'hidden') ;
 }
@@ -171,18 +181,25 @@ function Rellenar_Producto(valor,datos) {
 
 function Rellenar_Inicio(valor, datos) {
     var resultado =["",""];
-  
-    for (y = 1; y < datos.length; y++){
+    
+    for (y = 1,yy=0; y < datos.length; y++,yy++){
 
         if (datos[y].length > 10) {
-            resultado[0] += '<div class="mySlides"><img src="' + datos[y] + '" class="img-inicio"></div>';
-            resultado[1] += '<span id="000' + y+'" class="rayas">-</span>';
+            if (y === 1) {
+                resultado[0] += '<div class="carousel-item active"><img id="000000' + y + '" class="img-modal inicial" src="' + datos[y] + '" /></div>';
+                resultado[1] += '<li data-target="#myCarousel2" data-slide-to="'+ yy +'" class="active"></li>';
+            }
+            else {
+                resultado[0] += '<div class="carousel-item"><img id="000000' + y + '" class="img-modal inicial" src="' + datos[y] + '" /></div>';
+                resultado[1] += '<li data-target="#myCarousel2" data-slide-to="' + yy + '"></li>';
+            }
+           // resultado[1] += '<a id="000' + y+'" class="rayas">-</a>';
         }
 
 
     }
     return resultado;
-  
+
 
 
 }
