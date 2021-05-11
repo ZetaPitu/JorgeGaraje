@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31105.61
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1500
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ftp://ftp.d6089744-91247.srv-hostalia.com", "ftp://ftp.d6089744-91247.srv-hostalia.com", "{312D1DAE-EFE6-419D-9B25-D6429AB75D5A}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -21,6 +21,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ftp://ftp.d6089744-91247.sr
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Copias Worpress", "Copias Worpress", "{35EEADC5-DF9F-4124-A8D0-F31299536664}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
